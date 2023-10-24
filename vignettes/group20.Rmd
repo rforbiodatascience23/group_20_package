@@ -1,0 +1,29 @@
+---
+title: "group20"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{group20}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(group20)
+```
+
+### Function 1
+
+### Function 2
+
+### Function 3
+
+### Function 4
+
+### Function 5
