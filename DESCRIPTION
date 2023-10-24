@@ -4,10 +4,14 @@ Title: What the Package Does (Title Case)
 Version: 0.1.0
 Author:c(person(given = "Anton",
            family = "Wang",
+<<<<<<< HEAD
            role = c("aut", "cre"), 
 <<<<<<< HEAD
            email = "s183220@dtu.dk")
 =======
+=======
+           role = c("aut", "cre"),
+>>>>>>> bbb767da62c8c2e0cdd32e452b91fa993e7e5077
            email = "your@email.com"), 
 >>>>>>> a256ee9d6a64652c14084f7de68e3b26c307e8f6
     person(given = "Oscar",
