@@ -2,9 +2,10 @@ Package: group20
 Type: Package
 Title: The central dogma of molecular biology.
 Version: 0.1.0
-Author:c(person(given = "Anton",
+Author:
+  c(person(given = "Anton",
            family = "Wang",
-           role = c("aut", "cre"), 
+           role = c("aut", "cre"),
            email = "your@email.com"), 
     person(given = "Oscar",
            family = "Ward",
