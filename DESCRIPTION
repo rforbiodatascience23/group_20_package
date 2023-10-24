@@ -2,7 +2,7 @@ Package: group20
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author@R:
+Author:
   c(person(given = "Anton",
            family = "Wang",
            role = c("aut", "cre"), # There must be a "cre", but there can only be one
@@ -10,15 +10,15 @@ Author@R:
     person(given = "Oscar",
            family = "Ward",
            role = "aut",
-           email = "s193775@dtu.dk")
+           email = "s193775@dtu.dk"),
     person(given = "Jeppe",
            family = "Mikkelsen",
            role = "aut",
-           email = "s213426@dtu.dk")
+           email = "s213426@dtu.dk"),
     person(given = "Line",
            family = "Henriksen",
            role = "aut",
-           email = "s184242@dtu.dk")
+           email = "s184242@dtu.dk"),
     person(given = "Johan",
            family = "staffeldt",
            role = "aut",
@@ -32,3 +32,6 @@ LazyData: true
 Depends: 
     R (>= 2.10)
 RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
