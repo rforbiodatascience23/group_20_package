@@ -2,23 +2,26 @@ Package: group20
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author@R:
-  c(person(given = "Anton",
+Author:c(person(given = "Anton",
            family = "Wang",
            role = c("aut", "cre"), 
+<<<<<<< HEAD
            email = "s183220@dtu.dk")
+=======
+           email = "your@email.com"), 
+>>>>>>> a256ee9d6a64652c14084f7de68e3b26c307e8f6
     person(given = "Oscar",
            family = "Ward",
            role = "aut",
-           email = "s193775@dtu.dk")
+           email = "s193775@dtu.dk"),
     person(given = "Jeppe",
            family = "Mikkelsen",
            role = "aut",
-           email = "s213426@dtu.dk")
+           email = "s213426@dtu.dk"),
     person(given = "Line",
            family = "Henriksen",
            role = "aut",
-           email = "s184242@dtu.dk")
+           email = "s184242@dtu.dk"),
     person(given = "Johan",
            family = "staffeldt",
            role = "aut",
