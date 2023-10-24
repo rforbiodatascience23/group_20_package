@@ -2,7 +2,7 @@ Package: group20
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author@R:
+Author:
   c(person(given = "Anton",
            family = "Wang",
            role = c("aut", "cre"), # There must be a "cre", but there can only be one
@@ -32,3 +32,9 @@ LazyData: true
 Depends: 
     R (>= 2.10)
 RoxygenNote: 7.2.3
+Imports: 
+    ggplot2,
+    stringr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
