@@ -1,15 +1,11 @@
 Package: group20
 Type: Package
-Title: What the Package Does (Title Case)
+Title: The central dogma of molecular biology.
 Version: 0.1.0
-<<<<<<< HEAD
 Author:
   c(person(given = "Anton",
-=======
-Author:c(person(given = "Anton",
->>>>>>> d5cda32a2464bf2d350b4424d9c7835078338139
            family = "Wang",
-           role = c("aut", "cre"), 
+           role = c("aut", "cre"),
            email = "your@email.com"), 
     person(given = "Oscar",
            family = "Ward",
@@ -28,20 +24,13 @@ Author:c(person(given = "Anton",
            role = "aut",
            email = "s225001@dtu.dk"))
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: The package includes functions that transcribe DNA to mRNA and translate mRNA to amino acids.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: 
     R (>= 2.10)
 RoxygenNote: 7.2.3
-<<<<<<< HEAD
-Imports: 
-    ggplot2,
-    stringr
-=======
->>>>>>> d5cda32a2464bf2d350b4424d9c7835078338139
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3

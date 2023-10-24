@@ -2,10 +2,12 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
-export(aa_plot)
+export(translator)
 =======
 =======
+
+export(extract_codons)
+>>>>>>> bbb767da62c8c2e0cdd32e452b91fa993e7e5077
 export(gene)
->>>>>>> a256ee9d6a64652c14084f7de68e3b26c307e8f6
 export(Transcribe_DNA)
->>>>>>> d5cda32a2464bf2d350b4424d9c7835078338139
+>>>>>>> a256ee9d6a64652c14084f7de68e3b26c307e8f6
