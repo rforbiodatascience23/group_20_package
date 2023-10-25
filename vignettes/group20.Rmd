@@ -26,13 +26,13 @@ library(group20)
 
 ### Function 4
 
-I have made a function that takes a vector the output of previous function of codons and returns a string consisting of Amino acid abbriviations
+I have made a function that takes a vector of codons and outputs a amino acid sequence in the form of a string consisting of amino acid abreviations.
 
 ### Function 5
 
-Function 5 takes a string of amino acids (as letter abbreviation) and turns it into a bar chart which shows the number of occurrences of each amino acid. 
+Function 5 takes a string of amino acids (as letter abbreviation) and turns it into a bar chart which shows the number of occurrences of each amino acid.
 
-The function takes the string of amino acids and makes a vector. In this part, the str_split function from the "stringr"-package is applied. 
+The function takes the string of amino acids and makes a vector. In this part, the str_split function from the "stringr"-package is applied.
 
 Afterwards, the function counts the number of occurences of each amino acids. It makes a new data frame (called "counts") of the amino acid-vector plus the new vector of counts which is saved as the column called "Counts".
 
