@@ -29,3 +29,11 @@ library(group20)
 I have made a function that takes a vector the output of previous function of codons and returns a string consisting of Amino acid abbriviations
 
 ### Function 5
+
+Function 5 takes a string of amino acids (as letter abbreviation) and turns it into a bar chart which shows the number of occurrences of each amino acid. 
+
+The function takes the string of amino acids and makes a vector. In this part, the str_split function from the "stringr"-package is applied. 
+
+Afterwards, the function counts the number of occurences of each amino acids. It makes a new data frame (called "counts") of the amino acid-vector plus the new vector of counts which is saved as the column called "Counts".
+
+This "counts"-data frame is used to make a ggplot (from the "ggplot2"-package). The function output is a bar chart with the amino acid letter abbreviation on the x-axis and the number of occurrences ("Counts") on the y-axis.
