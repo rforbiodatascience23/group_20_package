@@ -26,4 +26,6 @@ library(group20)
 
 ### Function 4
 
+I have made a function that takes a vector the output of previous function of codons and returns a string consisting of Amino acid abbriviations
+
 ### Function 5
