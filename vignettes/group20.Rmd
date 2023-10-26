@@ -26,6 +26,8 @@ library(group20)
 
 ### Function 2
 
+This function transcribes DNA to RNA by substituting all T's in the DNA sequence with U's. The input for the function is a DNA sequence and the output will be the corresponding RNA sequence.
+
 ### Function 3 (extract_codons)
 
 This function takes a RNA sequence as string and outputs the codons, with a default start position at 1.
