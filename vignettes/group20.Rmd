@@ -18,11 +18,17 @@ knitr::opts_chunk$set(
 library(group20)
 ```
 
+### Link to github group repo
+
+<https://github.com/rforbiodatascience23/group_20_package>
+
 ### Function 1
 
 ### Function 2
 
-### Function 3
+### Function 3 (extract_codons)
+
+This function takes a RNA sequence as string and outputs the codons, with a default start position at 1.
 
 ### Function 4
 
