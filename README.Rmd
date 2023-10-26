@@ -1,17 +1,25 @@
 ---
-title: "group20"
-output: rmarkdown::pdf_document
-vignette: >
-  %\VignetteIndexEntry{group20}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
+output: github_document
 ---
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
 )
+```
+
+# group20
+
+## Installation
+
+You can install the development version of group20 from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("rforbiodatascience23/group_20_package")
 ```
 
 ```{r setup}
